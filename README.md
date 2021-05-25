@@ -1,21 +1,13 @@
-# nodejs-demo
+#imitatedZH
 
-> a nodejs for vue
+This is the first project written in NodeJS
 
-## Build Setup
+仿造知乎做的一个简单的demo项目
 
-``` bash
-# install dependencies
-npm install
+前端框架使用技术位Vue2 + EUi 
 
-# serve with hot reload at localhost:8080
-npm run dev
+后端使用的是nodeJs+Koa2+sequelize-cli
 
-# build for production with minification
-npm run build
+练手项目,纪念意义大于实际意义
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+项目结构:整个结构基本上都是Vue-cli的结构,server内的则是nodeJs编写的服务端代码;
