@@ -1,9 +1,9 @@
 var qiniu = require("qiniu");
 //要上传的空间名
-var bucket = 'mxtsvideo';
-var imageUrl = 'video.mxangel.cn'; // 域名名称
-var accessKey = 'f3G_LpkhASCvw5anWhOrd_oCTSMirwnWwl4Ic9t9';
-var secretKey = '-YQhtIJpe50-rsszeaTflEnjW0sFHJ277l5NFhXc';
+var bucket = 'your bucket';
+var imageUrl = ''; // 域名后缀名称
+var accessKey = 'Your accessKey';
+var secretKey = 'Your secretKey';
 var mac = new qiniu.auth.digest.Mac(accessKey, secretKey);
 
 var options = {
